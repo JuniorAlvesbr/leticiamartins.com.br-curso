@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'styled-components'
 import Reset from '../styles/Reset'
+import GlobalStyles from '../styles/GlobalStyles'
 
 const theme = {
   colors: {
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Reset />
       <ThemeProvider theme={theme}>
+        <GlobalStyles />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
