@@ -4,7 +4,7 @@ import Button from '../Button'
 
 export const Container = styled.section`
     position: relative;
-    height: 1000px;
+    height: 1142px;
 
     &::after {
         content: '';
@@ -13,13 +13,23 @@ export const Container = styled.section`
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 21.63%, #000000 40.21%);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 21.63%, #000000 33.21%);
     }
 `
 
 export const ImageWrapper = styled.div`
     position: relative;
     height: 400px;
+
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.6);
+    }
 `
 
 export const Image = styled(ImageNext)`
@@ -61,7 +71,7 @@ export const Text = styled.p`
     text-align: center;
     line-height: 1.2;
     text-transform: uppercase;
-    width: 220px;
+    width: 240px;
 
     > em {
         color: ${({ theme }) => theme.colors.third}
@@ -93,7 +103,9 @@ export const Description = styled(Text)`
 `
 
 export const Wrapper = styled.div`
+    width: 130px;
     display: flex;
+    justify-content: space-between;
 `
 
 export const IconWrapper = styled.div`

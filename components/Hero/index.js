@@ -46,7 +46,7 @@ function Hero() {
                 <Wrapper>
                     <IconWrapper>
                         <Image
-                            src='/images/garantia7-dias.png'
+                            src='/images/garantia7.png'
                             alt='Foto Minha casa Organizada da Leticia Martins'
                             layout='fill'
                             placeholder='blur'
