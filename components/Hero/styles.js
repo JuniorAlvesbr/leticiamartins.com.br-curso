@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import ImageNext from 'next/image'
+import Button from '../Button'
 
 export const Container = styled.section`
     position: relative;
@@ -34,6 +35,12 @@ export const Content = styled.article`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    ${Button} {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 `
 export const Title = styled.h1`
     font-size: 1.5rem;
@@ -83,4 +90,15 @@ export const Description = styled(Text)`
     text-transform: none;
     width: 290px;
     line-height: 2;
+`
+
+export const Wrapper = styled.div`
+    display: flex;
+`
+
+export const IconWrapper = styled.div`
+    position: relative;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
 `

@@ -1,5 +1,6 @@
 import ReactPlayer from "react-player"
-import { Container, ImageWrapper, Image, Content, Text, Title, Line, Legend, PlayerWrapper, Description } from "./styles"
+import { Container, ImageWrapper, Image, Content, Text, Title, Line, Legend, PlayerWrapper, Description, IconWrapper, GarantiaImage, SafeImage, Wrapper } from "./styles"
+import Button from '../Button'
 
 function Hero() {
     return (
@@ -39,6 +40,32 @@ function Hero() {
                 <Description>
                     Neste curso você vai aprender o <em>passo a passo</em> da organização que funciona, cada <em>etapa</em> da organização que vai <em>facilitar a sua rotina</em>, aprendendo exatamente por onde começar para atingir o seu resultado tão esperado!
                 </Description>
+
+                <Button>Quero me inscrever agora</Button>
+
+                <Wrapper>
+                    <IconWrapper>
+                        <Image
+                            src='/images/garantia7-dias.png'
+                            alt='Foto Minha casa Organizada da Leticia Martins'
+                            layout='fill'
+                            placeholder='blur'
+                            blurDataURL='/images/blur.png'
+                        />
+                    </IconWrapper>
+
+                    <IconWrapper>
+                        <Image
+                            src='/images/compra-segura.png'
+                            alt='Foto Minha casa Organizada da Leticia Martins'
+                            layout='fill'
+                            placeholder='blur'
+                            blurDataURL='/images/blur.png'
+                        />
+                    </IconWrapper>
+
+                </Wrapper>
+
             </Content>
 
         </Container>
