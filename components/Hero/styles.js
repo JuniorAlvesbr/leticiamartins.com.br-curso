@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import ImageNext from 'next/image'
+import { IconWrapper, ImageWrapper } from './Image'
+import { Description, Legend, Text } from './Text'
 import Button from '../Button'
 
 export const Container = styled.section`
@@ -15,26 +16,11 @@ export const Container = styled.section`
         left: 0;
         background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 21.63%, #000000 33.21%);
     }
-`
 
-export const ImageWrapper = styled.div`
-    position: relative;
-    height: 400px;
+    > ${ImageWrapper} {
+        height: 400px;
+   }
 
-    &::after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(0,0,0,0.6);
-    }
-`
-
-export const Image = styled(ImageNext)`
-    object-fit: cover;
-    object-position: 75%;
 `
 
 export const Content = styled.article`
@@ -46,48 +32,22 @@ export const Content = styled.article`
     flex-direction: column;
     align-items: center;
 
-    ${Button} {
+    > ${Button} {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
-`
-export const Title = styled.h1`
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.primary};
-    text-align: center;
-    
-    > span {
-        color: ${({ theme }) => theme.colors.third};
-        text-transform: uppercase;
+    > ${Text} {
+        width: 240px;
     }
-`
 
-export const Text = styled.p`
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.primary};
-    text-align: center;
-    line-height: 1.2;
-    text-transform: uppercase;
-    width: 240px;
-
-    > em {
-        color: ${({ theme }) => theme.colors.third}
+    > ${Legend} {
+        margin-bottom: 10px;
     }
-`
 
-export const Line = styled.hr`
-    width: 180px;
-    height: 2px;
-    background-color: ${({ theme }) => theme.colors.primary};
-    margin: 10px 0;
-`
-
-export const Legend = styled.p`
-    color: ${({ theme }) => theme.colors.primary};
-    margin-bottom: 10px;
+    > ${Description} {
+        width: 290px;
+    }
 `
 
 export const PlayerWrapper = styled.div`
@@ -95,22 +55,14 @@ export const PlayerWrapper = styled.div`
     height: 260px;
 `
 
-export const Description = styled(Text)`
-    font-size: 1.2rem;
-    text-transform: none;
-    width: 290px;
-    line-height: 2;
-`
-
-export const Wrapper = styled.div`
+export const IconContent = styled.div`
     width: 130px;
     display: flex;
     justify-content: space-between;
-`
 
-export const IconWrapper = styled.div`
-    position: relative;
-    width: 60px;
-    height: 60px;
-    z-index: 10;
+    > ${IconWrapper} {
+        width: 60px;
+        height: 60px;
+        z-index: 10;
+    }
 `

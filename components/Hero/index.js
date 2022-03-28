@@ -1,5 +1,8 @@
 import ReactPlayer from "react-player"
-import { Container, ImageWrapper, Image, Content, Text, Title, Line, Legend, PlayerWrapper, Description, IconWrapper, GarantiaImage, SafeImage, Wrapper } from "./styles"
+import { ImageWrapper, IconWrapper, Image } from './Image'
+import { Title, Text, Legend, Description } from './Text'
+import { Container, Content, PlayerWrapper, IconContent } from "./styles"
+import { Line } from '../Line'
 import Button from '../Button'
 
 function Hero() {
@@ -43,7 +46,7 @@ function Hero() {
 
                 <Button>Quero me inscrever agora</Button>
 
-                <Wrapper>
+                <IconContent>
                     <IconWrapper>
                         <Image
                             src='/images/garantia7.png'
@@ -64,7 +67,7 @@ function Hero() {
                         />
                     </IconWrapper>
 
-                </Wrapper>
+                </IconContent>
 
             </Content>
 
