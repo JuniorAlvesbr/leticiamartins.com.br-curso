@@ -3,7 +3,7 @@ import ImageNext from 'next/image'
 
 export const Container = styled.section`
     position: relative;
-    height: 100vh;
+    height: 1000px;
 
     &::after {
         content: '';
@@ -12,7 +12,7 @@ export const Container = styled.section`
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 40.63%, #000000 53.21%);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 21.63%, #000000 40.21%);
     }
 `
 
@@ -65,8 +65,22 @@ export const Line = styled.hr`
     width: 180px;
     height: 2px;
     background-color: ${({ theme }) => theme.colors.primary};
+    margin: 10px 0;
 `
 
 export const Legend = styled.p`
     color: ${({ theme }) => theme.colors.primary};
+    margin-bottom: 10px;
+`
+
+export const PlayerWrapper = styled.div`
+    position: relative;
+    height: 260px;
+`
+
+export const Description = styled(Text)`
+    font-size: 1.2rem;
+    text-transform: none;
+    width: 290px;
+    line-height: 2;
 `
