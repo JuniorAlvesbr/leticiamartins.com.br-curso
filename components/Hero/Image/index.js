@@ -13,6 +13,12 @@ export const ImageWrapper = styled.div`
         left: 0;
         background-color: rgba(0,0,0,0.6);
     }
+
+    @media (min-width: 900px) {
+        &::after {
+            display: none;
+        }
+    }
 `
 
 export const IconWrapper = styled.div`

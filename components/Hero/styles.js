@@ -5,7 +5,7 @@ import Button from '../Button'
 
 export const Container = styled.section`
     position: relative;
-    height: 1142px;
+    height: 1150px;
 
     &::after {
         content: '';
@@ -19,8 +19,19 @@ export const Container = styled.section`
 
     > ${ImageWrapper} {
         height: 400px;
-   }
+    }
 
+   @media (min-width: 750px) {
+        height: 850px;
+        
+        &::after {
+            background: radial-gradient(100% 505.77% at 0% 45.98%, rgba(0, 0, 0, 0.9) 35.94%, rgba(0, 0, 0, 0) 71.88%);
+        }
+
+        > ${ImageWrapper} {
+            height: 850px;
+        }
+    }
 `
 
 export const Content = styled.article`
@@ -31,6 +42,7 @@ export const Content = styled.article`
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5rem;
 
     > ${Button} {
         margin-top: 10px;
@@ -42,17 +54,49 @@ export const Content = styled.article`
     }
 
     > ${Legend} {
+        font-size: 1rem;
         margin-bottom: 10px;
     }
 
     > ${Description} {
+        font-size: 1.2rem;
         width: 290px;
+    }
+
+    @media (min-width: 500px) {
+        font-size: 1.7rem;
+
+        > ${Text} {
+            width: 316px;
+        }
+
+        > ${Description} {
+            font-size: 1.4rem;
+            width: 500px;
+        }
+    }
+
+    @media (min-width: 750px) {
+        width: 500px;
+        top: 0;
+        margin-top: 40px;
+        margin-left: 58px;
+
+        > ${Description} {
+            line-height: 34px;
+        }
+
     }
 `
 
 export const PlayerWrapper = styled.div`
     position: relative;
     height: 260px;
+
+    @media (min-width: 500px) {
+        width: 450px;
+        height: 280px;
+    }
 `
 
 export const IconContent = styled.div`

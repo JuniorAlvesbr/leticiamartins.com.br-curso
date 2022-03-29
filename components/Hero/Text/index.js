@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Title = styled.h1`
-    font-size: 1.5rem;
     font-weight: 700;
     color: ${({ theme }) => theme.colors.primary};
     text-align: center;
@@ -13,7 +12,6 @@ export const Title = styled.h1`
 `
 
 export const Text = styled.p`
-    font-size: 1.5rem;
     font-weight: 700;
     color: ${({ theme }) => theme.colors.primary};
     text-align: center;
@@ -30,7 +28,6 @@ export const Legend = styled.p`
 `
 
 export const Description = styled(Text)`
-    font-size: 1.2rem;
     text-transform: none;
     line-height: 2;
 `
