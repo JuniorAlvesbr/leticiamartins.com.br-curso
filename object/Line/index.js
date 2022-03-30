@@ -6,3 +6,7 @@ export const Line = styled.hr`
     background-color: ${({ theme }) => theme.colors.primary};
     margin: 10px 0;
 `
+
+export const BlackLine = styled(Line)`
+    background-color: ${({ theme }) => theme.colors.secondary};
+`
