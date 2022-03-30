@@ -6,6 +6,10 @@ export const SubTitle = styled.h2`
     text-transform: uppercase;
     text-align:center;
     line-height: 28px;
+
+    @media (min-width: 550px) {
+        font-size: 1.8rem;
+    }
 `
 
 export const SubTitleH3 = styled(SubTitle)`
