@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 const Card = styled.div`
     width: 320px;
+    height: 142px;
     color: ${({ theme }) => theme.colors.secondary};
     background-color: ${({ theme }) => theme.colors.fourth};
 `
 
 const Title = styled.p`
+    font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -17,7 +19,7 @@ const Title = styled.p`
 `
 
 const SubTitle = styled.p`
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -26,6 +28,7 @@ const SubTitle = styled.p`
 `
 
 const Description = styled(SubTitle)`
+    font-size: 1.1rem;
     text-transform: lowercase;
     font-weight: 400;
 `

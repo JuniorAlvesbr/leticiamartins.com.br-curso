@@ -11,24 +11,29 @@ export default function CourseContent() {
             <BlackLine />
 
             <CardGrid>
-                {moduleCard.map(({ title, subTitle, description }) => (
-                    <ModuleCard
-                        title={title}
-                        subTitle={subTitle}
-                        description={description}
-                    />
-                ))}
+                {moduleCard.map(({ title, subTitle, description }, index) => (
+                    <li key={index}>
+                        <ModuleCard
+                            title={title}
+                            subTitle={subTitle}
+                            description={description}
+                        />
+                    </li>
+                )
+                )}
             </CardGrid>
 
             <SubTitleH3 as="h3">Receba esses Bônus Incriveis:</SubTitleH3>
             <BlackLine />
 
             <BonusContent>
-                {bonusCard.map(({ title, description }) => (
-                    <BonusCard
-                        title={title}
-                        description={description}
-                    />
+                {bonusCard.map(({ title, description }, index) => (
+                    <li key={index}>
+                        <BonusCard
+                            title={title}
+                            description={description}
+                        />
+                    </li>
                 ))}
             </BonusContent>
         </Container>

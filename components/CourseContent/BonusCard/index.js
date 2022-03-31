@@ -5,6 +5,7 @@ const Card = styled.div`
     border-radius: 10px;
     padding: 16px;
     width: 260px;
+    height: 100px;
 `
 
 const Title = styled.p`

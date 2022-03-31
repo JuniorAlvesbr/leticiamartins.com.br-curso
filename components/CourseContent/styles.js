@@ -24,7 +24,7 @@ export const Container = styled.section`
     }
 `
 
-export const CardGrid = styled.div`
+export const CardGrid = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -32,7 +32,7 @@ export const CardGrid = styled.div`
     max-width: 1300px;
 `
 
-export const BonusContent = styled.div`
+export const BonusContent = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
