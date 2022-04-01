@@ -13,6 +13,5 @@ export const SubTitle = styled.h2`
 `
 
 export const SubTitleH3 = styled(SubTitle)`
-    font-size: 1.1rem;
     line-height: 18px;
 `
