@@ -3,6 +3,7 @@ import { SubTitle, SubTitleH3 } from "../../object/SubTitle"
 import BonusCard from "./BonusCard"
 import ModuleCard from "./ModuleCard"
 import { BonusContent, CardGrid, Container } from "./styles"
+import Button from '../Button'
 
 export default function CourseContent() {
     return (
@@ -36,6 +37,8 @@ export default function CourseContent() {
                     </li>
                 ))}
             </BonusContent>
+
+            <Button>Eu quero Agora</Button>
         </Container>
     )
 }

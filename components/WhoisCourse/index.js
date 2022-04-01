@@ -1,4 +1,4 @@
-import { Container, UsersIcon, List, Item, CheckIcon, TextContent, Text } from "./styles";
+import { Container, UsersIcon, List, Item, CheckIcon, Content, TextContent, Text } from "./styles";
 import { SubTitle } from '../../object/SubTitle'
 import { BlackLine } from '../../object/Line'
 import Button from '../Button'
@@ -24,13 +24,15 @@ export default function WhoisCourse() {
             <BlackLine />
             <UsersIcon />
 
-            <List>
-                {list.map((item, index) => <Item key={index}><CheckIcon /><span>{item}</span></Item>)}
-            </List>
+            <Content>
+                <List>
+                    {list.map((item, index) => <Item key={index}><CheckIcon /><span>{item}</span></Item>)}
+                </List>
 
-            <TextContent>
-                {text.map((item, index) => <Text key={index}>{item}</Text>)}
-            </TextContent>
+                <TextContent>
+                    {text.map((item, index) => <Text key={index}>{item}</Text>)}
+                </TextContent>
+            </Content>
 
             <Button>Eu quero agora</Button>
         </Container >
