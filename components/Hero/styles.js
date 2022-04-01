@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { IconWrapper, ImageWrapper } from './Image'
 import { Description, Legend, Text } from './Text'
-import Button from '../Button'
+import Button from '../../object/Button'
 
 export const Container = styled.section`
     position: relative;

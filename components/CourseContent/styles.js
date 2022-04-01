@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { SubTitle } from '../../object/SubTitle'
 import { BlackLine } from '../../object/Line'
-import Button from '../Button'
+import Button from '../../object/Button'
 
 export const Container = styled.section`
     display: flex;

@@ -3,7 +3,7 @@ import { SubTitle, SubTitleH3 } from "../../object/SubTitle"
 import BonusCard from "./BonusCard"
 import ModuleCard from "./ModuleCard"
 import { BonusContent, CardGrid, Container } from "./styles"
-import Button from '../Button'
+import Button from '../../object/Button'
 
 export default function CourseContent() {
     return (

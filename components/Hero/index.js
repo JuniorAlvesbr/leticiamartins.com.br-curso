@@ -3,7 +3,7 @@ import { ImageWrapper, IconWrapper, Image } from './Image'
 import { Title, Text, Legend, Description } from './Text'
 import { Container, Content, PlayerWrapper, IconContent } from "./styles"
 import { Line } from '../../object/Line'
-import Button from '../Button'
+import Button from '../../object/Button'
 
 function Hero() {
     return (

@@ -1,7 +1,7 @@
 import { Container, UsersIcon, List, Item, CheckIcon, Content, TextContent, Text } from "./styles";
 import { SubTitle } from '../../object/SubTitle'
 import { BlackLine } from '../../object/Line'
-import Button from '../Button'
+import Button from '../../object/Button'
 
 const list = [
     'Para quem quer curtir sua casa com mais tranquilidade.',
