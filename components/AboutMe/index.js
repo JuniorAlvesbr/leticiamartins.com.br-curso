@@ -15,7 +15,7 @@ export default function AboutMe() {
             </ImageWrapper>
 
             <Content>
-                <SubTitle>Sobre Mim</SubTitle>
+                <SubTitle>Sobre Mim:</SubTitle>
                 <Text>Prazer, sou a Leticia Martins, certificada em personal organizer desde 2017.</Text>
 
                 <Text>
@@ -23,7 +23,7 @@ export default function AboutMe() {
                 </Text>
 
                 <Text>
-                    Pensando nisso, desenvolvi esse curso, com todo <em>amor</em> e <carinho>carinho</carinho> e com minha experiência, para que você tenha facilidade e simplicidade no seu dia a dia, através da sua casa organizada.
+                    Pensando nisso, desenvolvi esse curso, com todo <em>amor</em> e <em>carinho</em> e com minha experiência, para que você tenha facilidade e simplicidade no seu dia a dia, através da sua casa organizada.
                 </Text>
 
             </Content>
