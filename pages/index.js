@@ -1,5 +1,6 @@
 import Hero from "../components/Hero"
 import CourseContent from "../components/CourseContent"
+import WhoisCourse from "../components/WhoisCourse"
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       </header>
       <main>
         <CourseContent />
+        <WhoisCourse />
       </main>
     </>
   )
