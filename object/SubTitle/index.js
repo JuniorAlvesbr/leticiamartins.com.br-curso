@@ -6,6 +6,10 @@ export const SubTitle = styled.h2`
     text-transform: uppercase;
     line-height: 28px;
 
+    & > em {
+        color: ${({ theme }) => theme.colors.third};
+    }
+
     @media (min-width: 550px) {
         font-size: 1.8rem;
     }
