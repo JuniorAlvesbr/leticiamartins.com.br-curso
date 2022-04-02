@@ -12,6 +12,19 @@ export const Container = styled.section`
 
     ${SubTitle} {
         color: ${({ theme }) => theme.colors.primary};
+        margin-bottom: 46px;
+        text-align: center;
+    }
+
+    @media (min-width: 750px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        background: linear-gradient(180deg, #BF6D8D 9.84%, #000000 86.24%);
+
+        ${SubTitle} {
+            text-align: left;
+            padding-left: 150px;
+        }
     }
 `
 
@@ -19,6 +32,11 @@ export const ImageWrapper = styled.div`
     position: relative;
     width: 200px;
     height: 200px;
+
+    @media (min-width: 750px) {
+        width: 400px;
+        height: 400px;
+    }
 `
 
 export const Image = styled(ImageNext)`
@@ -26,7 +44,8 @@ export const Image = styled(ImageNext)`
 `
 
 export const Content = styled.article`
-    width: 280px;
+    width: 70vw;
+    max-width: 900px;
 `
 
 export const Text = styled.p`
@@ -39,5 +58,11 @@ export const Text = styled.p`
     > em {
         text-transform: uppercase;
         color: ${({ theme }) => theme.colors.third}
+    }
+
+    @media (min-width: 750px) {
+        text-align: left;
+        font-size: 1.2rem;
+        padding-right: 80px;
     }
 `

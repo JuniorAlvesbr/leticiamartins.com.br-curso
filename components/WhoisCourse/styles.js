@@ -11,6 +11,7 @@ export const Container = styled.section`
     padding: 50px 0 30px;
 
     ${SubTitle} {
+        text-align: center;
         max-width: 370px;
     }
 `

@@ -4,7 +4,6 @@ export const SubTitle = styled.h2`
     font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
-    text-align:center;
     line-height: 28px;
 
     @media (min-width: 550px) {

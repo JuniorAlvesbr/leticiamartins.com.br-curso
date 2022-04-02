@@ -13,6 +13,7 @@ export const Container = styled.section`
     > ${SubTitle} {
         width: 156px;
         margin-top: 20px;
+        text-align: center;
     }
 
     > ${Button} {
