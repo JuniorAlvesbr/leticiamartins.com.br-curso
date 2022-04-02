@@ -12,13 +12,33 @@ export const IconCertificate = styled(FaAward)``
 
 export const Container = styled.section`
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     ${SubTitle} {
-        max-width: 170px;
+        max-width: 300px;
         text-align: center;
         margin: 24px 0;
+    }
+
+    @media (min-width: 600px) {
+        ${SubTitle} {
+            max-width: 400px;
+        }
+    }
+`
+
+export const Text = styled.p`
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 21px;
+    margin-top: 20px;
+
+    & > em {
+        color: ${({ theme }) => theme.colors.primary};
     }
 `
 
@@ -26,31 +46,31 @@ export const List = styled.ul`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 600px;
+
+    @media (min-width: 1100px) {
+        max-width: 1200px;
+    }
 `
 
 export const Item = styled.li`
-    background-color: ${({ theme }) => theme.colors.third};
-    font-weight: 700;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 250px;
     height: 200px;
-    padding: 10px;
-    line-height: 21px;
+    background-color: ${({ theme }) => theme.colors.third};
     border-radius: 10px;
+    padding: 10px;
+    margin: 14px;
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-top: 10px;
+    }
 
     ${IconFactCheck}, ${IconSafety}, ${IconChat}, ${IconCertificate} {
         color: ${({ theme }) => theme.colors.primary}; 
-        font-size: 3rem;
-        
-    }
-
-    & > em {
-        color: ${({ theme }) => theme.colors.primary};
+        font-size: 3rem 
     }
 `

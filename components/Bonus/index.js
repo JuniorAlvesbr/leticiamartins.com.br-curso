@@ -1,24 +1,24 @@
-import { Container, List, Item } from "./styles";
+import { Container, Text, List, Item } from "./styles";
 import { IconFactCheck, IconSafety, IconChat, IconCertificate } from './styles'
 import { SubTitle } from '../../object/SubTitle'
 
 const list = [
-    <Item>
+    <div>
         <IconFactCheck />
-        método exclusivo com <em>+ de 30 aulas</em>, com conteúdo teórico e prático'
-    </Item>,
-    <Item>
+        <Text>método exclusivo com <em>+ de 30 aulas</em>, com conteúdo teórico e prático.'</Text>
+    </div>,
+    <div>
         <IconSafety />
-        4 bônus exclusivo de, decoração, imagem e estilo, manipulação de alimentos e auto maquiagem.
-    </Item>,
-    <Item>
+        <Text>4 bônus exclusivo de, decoração, imagem e estilo, manipulação de alimentos e auto maquiagem.</Text>
+    </div>,
+    <div>
         <IconChat />
-        'área exclusiva dentro da plataforma, para  tirar dúvidas.'
-    </Item>,
-    <Item>
+        <Text>área exclusiva dentro da plataforma, para tirar dúvidas.</Text>
+    </div>,
+    <div>
         <IconCertificate />
-        'certificado de conclusão do curso'
-    </Item>
+        <Text>certificado de conclusão do curso.</Text>
+    </div>
 ]
 
 export default function Bonus() {
@@ -26,7 +26,7 @@ export default function Bonus() {
         <Container>
             <SubTitle>lembrando que você <em>recebe</em>:</SubTitle>
             <List>
-                {list.map(item => item)}
+                {list.map((item, index) => <Item key={index}>{item}</Item>)}
             </List>
             <SubTitle as='h3'>você terá todo esse <em>conteúdo</em> e <em>ainda mais</em>:</SubTitle>
         </Container >
