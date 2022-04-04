@@ -1,6 +1,7 @@
-import { Container, Text, List, Item } from "./styles";
+import { Container, Text, List, Item, ImageWrapper, Image, TextBox } from "./styles";
 import { IconFactCheck, IconSafety, IconChat, IconCertificate } from './styles'
 import { SubTitle } from '../../object/SubTitle'
+import Button from '../../object/Button'
 
 const list = [
     <div>
@@ -29,6 +30,24 @@ export default function Bonus() {
                 {list.map((item, index) => <Item key={index}>{item}</Item>)}
             </List>
             <SubTitle as='h3'>você terá todo esse <em>conteúdo</em> e <em>ainda mais</em>:</SubTitle>
+
+            <ImageWrapper>
+                <Image
+                    src="/images/ebook.jpg"
+                    alt="Imagem do ebook da Leticia Martins"
+                    layout='fill'
+                    placeholder='blur'
+                    blurDataURL='/images/blur.png'
+                />
+            </ImageWrapper>
+
+            <TextBox>
+                <Text>1 ebook - minha casa organizada</Text>
+                <Text>1 ebook - guia prático de dobras</Text>
+                <Text><span>todos bem moderno, com designer exclusivo, fácil leitura e compreensão</span></Text>
+            </TextBox>
+
+            <Button>quero me inscrever agora</Button>
         </Container >
     )
 }

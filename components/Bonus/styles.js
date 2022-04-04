@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import ImageNext from 'next/image'
 import { MdFactCheck } from 'react-icons/md'
 import { AiOutlineSafetyCertificate } from 'react-icons/ai'
 import { BsChatLeftText } from 'react-icons/bs'
@@ -74,3 +75,28 @@ export const Item = styled.li`
         font-size: 3rem 
     }
 `
+
+export const TextBox = styled.div`
+    width: 270px;
+    border-radius: 10px;
+    background-color: ${({ theme }) => theme.colors.fourth};
+    margin: 12px 0;
+    padding: 6px;
+
+    ${Text} {
+        font-size: 0.9rem;
+        margin-top: 6px;
+        
+        & > span {
+            text-transform: lowercase;
+        }
+    }
+`
+
+export const ImageWrapper = styled.div`
+    position: relative;
+    width: 90%;
+    height: 350px;
+`
+
+export const Image = styled(ImageNext)``
