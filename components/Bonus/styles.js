@@ -1,102 +1,117 @@
 import styled from 'styled-components'
-import ImageNext from 'next/image'
+import { SubTitle, Text, ImageWrapper, Image } from '../../object'
+
 import { MdFactCheck } from 'react-icons/md'
 import { AiOutlineSafetyCertificate } from 'react-icons/ai'
 import { BsChatLeftText } from 'react-icons/bs'
 import { FaAward } from 'react-icons/fa'
-import { SubTitle } from '../../object/SubTitle'
 
 export const IconFactCheck = styled(MdFactCheck)``
 export const IconSafety = styled(AiOutlineSafetyCertificate)``
 export const IconChat = styled(BsChatLeftText)``
 export const IconCertificate = styled(FaAward)``
 
-export const Container = styled.section`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+export const List = styled.ul``
 
-    ${SubTitle} {
-        max-width: 300px;
-        text-align: center;
-        margin: 24px 0;
+export const Item = styled.li`
+    background-color: ${({ theme }) => theme.colors.third};
+    border-radius: 10px;
+
+    ${Text} {
+        text-transform: uppercase;
+
+        & em {
+            color: ${({ theme }) => theme.colors.primary};
+        }
+
+        & span {
+            text-transform: lowercase;
+            font-style: italic;
+            font-weight: 400;
+        }
     }
+`
+export const Content = styled.article``
 
-    @media (min-width: 600px) {
-        ${SubTitle} {
-            max-width: 400px;
+export const TextBox = styled.div`
+    background-color: ${({ theme }) => theme.colors.fourth};
+    border-radius: 12px;
+
+    & > ${Text} {
+        text-transform: uppercase;
+        line-height: 18px;
+        text-align: center;
+
+        span {
+            text-transform: lowercase;
+            font-style: italic;
         }
     }
 `
 
-export const Text = styled.p`
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 21px;
-    margin-top: 20px;
+export const Container = styled.section`
 
-    & > em {
-        color: ${({ theme }) => theme.colors.primary};
+    & > ${SubTitle} {
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 0 auto;
     }
-`
 
-export const List = styled.ul`
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 600px;
+    & > ${List} {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-    @media (min-width: 1100px) {
-        max-width: 1200px;
+
+        & ${Item} {
+            display: flex;
+            align-items: center;
+            width: 250px;
+            height: 200px;
+            margin-bottom: 30px;
+
+            
+            & div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                
+                & ${IconFactCheck}, ${IconSafety}, ${IconChat}, ${IconCertificate} {
+                    color: ${({ theme }) => theme.colors.primary}; 
+                    font-size: 3rem 
+                }
+
+                & ${Text} {
+                    width: 200px;
+                    text-align: center;
+                    line-height: 21px;
+                    padding-top: 6px;
+                }
+
+            }
+        }
     }
-`
 
-export const Item = styled.li`
-    width: 250px;
-    height: 200px;
-    background-color: ${({ theme }) => theme.colors.third};
-    border-radius: 10px;
-    padding: 10px;
-    margin: 14px;
-
-    & > div {
+    & > ${Content} {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100%;
-        padding-top: 10px;
-    }
+        margin: 24px 0;
 
-    ${IconFactCheck}, ${IconSafety}, ${IconChat}, ${IconCertificate} {
-        color: ${({ theme }) => theme.colors.primary}; 
-        font-size: 3rem 
-    }
-`
-
-export const TextBox = styled.div`
-    width: 270px;
-    border-radius: 10px;
-    background-color: ${({ theme }) => theme.colors.fourth};
-    margin: 12px 0;
-    padding: 6px;
-
-    ${Text} {
-        font-size: 0.9rem;
-        margin-top: 6px;
-        
-        & > span {
-            text-transform: lowercase;
+        & ${ImageWrapper} {
+            width: 280px;
+            height: 290px;
+            margin-bottom: 10px;
+    
+            ${Image} {
+               object-fit: contain;
+            }
+        }
+    
+        & ${TextBox} {
+            width: 320px;
+            padding: 14px;
         }
     }
 `
-
-export const ImageWrapper = styled.div`
-    position: relative;
-    width: 90%;
-    height: 350px;
-`
-
-export const Image = styled(ImageNext)``

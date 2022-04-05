@@ -1,16 +1,17 @@
-import { Container, Text, List, Item, ImageWrapper, Image, TextBox } from "./styles";
+import { Container, List, Item, Content, TextBox } from "./styles";
 import { IconFactCheck, IconSafety, IconChat, IconCertificate } from './styles'
-import { SubTitle } from '../../object/SubTitle'
-import Button from '../../object/Button'
+import { SubTitle, Text, ImageWrapper, Image, Button } from '../../object/'
 
-const list = [
+const BonusList = [
     <div>
         <IconFactCheck />
         <Text>método exclusivo com <em>+ de 30 aulas</em>, com conteúdo teórico e prático.'</Text>
     </div>,
     <div>
         <IconSafety />
-        <Text>4 bônus exclusivo de, decoração, imagem e estilo, manipulação de alimentos e auto maquiagem.</Text>
+        <Text>
+            <strong>4 bônus exclusivo de</strong>, <span>decoração, imagem e estilo, manipulação de alimentos e auto maquiagem.</span>
+        </Text>
     </div>,
     <div>
         <IconChat />
@@ -22,32 +23,41 @@ const list = [
     </div>
 ]
 
+
 export default function Bonus() {
     return (
         <Container>
-            <SubTitle>lembrando que você <em>recebe</em>:</SubTitle>
+
+            <SubTitle>Lembrando que <br></br> você <em>recebe</em></SubTitle >
+
             <List>
-                {list.map((item, index) => <Item key={index}>{item}</Item>)}
+                {BonusList.map((bonus, index) => <Item key={index}>{bonus}</Item>)}
             </List>
-            <SubTitle as='h3'>você terá todo esse <em>conteúdo</em> e <em>ainda mais</em>:</SubTitle>
 
-            <ImageWrapper>
-                <Image
-                    src="/images/ebook.jpg"
-                    alt="Imagem do ebook da Leticia Martins"
-                    layout='fill'
-                    placeholder='blur'
-                    blurDataURL='/images/blur.png'
-                />
-            </ImageWrapper>
+            <SubTitle as="h3">Você terá todo esse <br></br> <em>conteúdo</em> e <em>ainda mais</em>:</SubTitle>
 
-            <TextBox>
-                <Text>1 ebook - minha casa organizada</Text>
-                <Text>1 ebook - guia prático de dobras</Text>
-                <Text><span>todos bem moderno, com designer exclusivo, fácil leitura e compreensão</span></Text>
-            </TextBox>
+            <Content>
+                <ImageWrapper>
+                    <Image
+                        src="/images/ebook.jpg"
+                        alt="Ebook do curso Minha casa Organizada da Leticia Martins"
+                    />
+                </ImageWrapper>
+
+                <TextBox>
+                    <Text>1 ebook - minha casa organizada</Text>
+                    <Text>1 ebook - guia prático de dobras</Text>
+                    <Text>
+                        <span>
+                            todos bem moderno, com designer <br></br>
+                            exclusivo, fácil leitura e compreensão
+                        </span>
+                    </Text>
+                </TextBox>
+            </Content>
 
             <Button>quero me inscrever agora</Button>
+
         </Container >
     )
 }
