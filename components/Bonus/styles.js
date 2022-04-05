@@ -50,17 +50,28 @@ export const TextBox = styled.div`
 `
 
 export const Container = styled.section`
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     & > ${SubTitle} {
         font-size: 1.1rem;
         text-align: center;
         margin: 0 auto;
+        padding: 50px;
+    }
+
+    @media (min-width: 700px) {
+        & > ${SubTitle} {
+            font-size: 1.6rem;
+        }
     }
 
     & > ${List} {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 20px;
 
 
         & ${Item} {
@@ -68,7 +79,6 @@ export const Container = styled.section`
             align-items: center;
             width: 250px;
             height: 200px;
-            margin-bottom: 30px;
 
             
             & div {
@@ -91,13 +101,23 @@ export const Container = styled.section`
 
             }
         }
+
+        @media(min-width: 700px) {
+            width: 600px;
+        }
+
+        @media(min-width: 1200px) {
+            width: 100%;
+        }
+
     }
 
     & > ${Content} {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 24px 0;
+        margin-bottom: 24px;
+        gap: 30px;
 
         & ${ImageWrapper} {
             width: 280px;
@@ -112,6 +132,47 @@ export const Container = styled.section`
         & ${TextBox} {
             width: 320px;
             padding: 14px;
+        }
+
+        @media(min-width: 700px) {
+            flex-direction: row;
+
+            & ${ImageWrapper} {
+                width: 370px;
+                height: 550px;
+            }
+
+            & ${TextBox} {
+                width: 350px;
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+
+                ${Text} {
+                    font-size: 1.2rem;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        @media(min-width: 1200px) {
+            & ${ImageWrapper} {
+                width: 580px;
+                height: 650px;
+            }
+
+            & ${TextBox} {
+                width: 503px;
+                height: 350px;
+
+                ${Text} {
+                    font-size: 1.5rem;
+                    line-height: 30px;
+                    width: 400px;
+                }
+            }
         }
     }
 `
