@@ -15,6 +15,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
     
     & > ${SubTitle} {
         font-size: 1.1rem;
