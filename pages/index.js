@@ -6,6 +6,7 @@ import Bonus from "../components/Bonus"
 import Device from "../components/Device"
 import Price from "../components/Price"
 import Garantia from "../components/Garantia"
+import Questions from "../components/Questions"
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <Device />
         <Price />
         <Garantia />
+        <Questions />
       </main>
     </>
   )
