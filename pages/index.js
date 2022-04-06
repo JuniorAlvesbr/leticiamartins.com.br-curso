@@ -4,6 +4,7 @@ import WhoisCourse from "../components/WhoisCourse"
 import AboutMe from "../components/AboutMe"
 import Bonus from "../components/Bonus"
 import Device from "../components/Device"
+import Price from "../components/Price"
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <AboutMe />
         <Bonus />
         <Device />
+        <Price />
       </main>
     </>
   )
