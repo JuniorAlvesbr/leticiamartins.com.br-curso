@@ -1,5 +1,5 @@
 import { Container, Content, Input, Label, Tab, TabContent } from "./styles";
-import { SubTitle, Text } from '../../object'
+import { SubTitle, Text, Name } from '../../object'
 
 const ListQuestion = [
     {
@@ -39,6 +39,8 @@ export default function Questions() {
                 ))}
             </Content>
 
+            <Name>Leticia Martins</Name>
+            <Text>Personal Organizer</Text>
         </Container>
     )
 }

@@ -1,11 +1,21 @@
 import styled from 'styled-components'
+import { Name, Text } from '../../object'
 
 export const Container = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 26px 0; 
 
+    ${Name} {
+        font-size: 2.5rem;
+    }
+
+    ${Text} {
+        color: ${({ theme }) => theme.colors.third};
+        font-size: 1.2rem;
+    }
 `
 
 export const Tab = styled.div`
@@ -55,6 +65,9 @@ export const TabContent = styled.div`
 `
 
 export const Content = styled.div`
+    padding: 2rem;
+    max-width: 700px;
+
     ${Input}:checked {
         + ${Label} {
             background-color: ${({ theme }) => theme.colors.third};
