@@ -14,6 +14,7 @@ const Button = styled.a.attrs({
     border-radius: 20px;
     color: ${({ theme }) => theme.colors.primary};
     background-color: ${({ theme }) => theme.colors.third};
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
     cursor: pointer;
     transition: transform 100ms ease-in-out;
 
