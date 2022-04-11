@@ -67,11 +67,6 @@ export const Content = styled.div`
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
     
-        ${ImageWrapper} {
-            height: 550px;
-        }
-
-    
         .image1 {
             grid-area: image1;
         }
