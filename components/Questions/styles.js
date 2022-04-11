@@ -38,6 +38,7 @@ export const Label = styled.label`
     font-weight: 700;
     line-height: 18px;
     background-color: ${({ theme }) => theme.colors.fourth};
+    padding: 0 10px;
     cursor: pointer;
     
     &:hover {
