@@ -45,62 +45,62 @@ export default function CourseContent() {
 
 const moduleCard = [
     {
-        title: "Modulo 1",
+        title: "Módulo 1",
         subTitle: "apresentação/ conceito de organização / diferença de arrumar x organizar / 5 passos para organizar",
         description: ""
     },
     {
-        title: "Modulo 2",
+        title: "Módulo 2",
         subTitle: "Sala",
         description: "como deixar bem organizada e funcional"
     },
     {
-        title: "Modulo 3",
+        title: "Módulo 3",
         subTitle: "Cozinha",
         description: "introdução, organização de cada parte  do ambiente e da geladeira"
     },
     {
-        title: "Modulo 4",
+        title: "Módulo 4",
         subTitle: "Lavanderia",
         description: "conhecendo os produtos, espaços e formas de organizar"
     },
     {
-        title: "Modulo 5",
+        title: "Módulo 5",
         subTitle: "Roupas e Calçados",
         description: "o que dobrar, o que pendurar, como dobrar cada tipo de roupa e seus organizadores"
     },
     {
-        title: "Modulo 6",
+        title: "Módulo 6",
         subTitle: "Banheiro",
         description: "organização dos produtos de higiene, formas de organização"
     },
     {
-        title: "Modulo 7",
+        title: "Módulo 7",
         subTitle: "Acessórios e Maquiagens",
         description: "maneiras de organizar os acessórios de cabelo, cintos, bijuterias e maquiagens"
     },
     {
-        title: "Modulo 8",
+        title: "Módulo 8",
         subTitle: "Rouparia",
         description: "organização de lençol, toalhas de banho, rosto e cobertores"
     },
     {
-        title: "Modulo 9",
+        title: "Módulo 9",
         subTitle: "Escritório",
         description: "como organizar a papelaria, objetos e fios"
     },
     {
-        title: "Modulo 10",
+        title: "Módulo 10",
         subTitle: "Brinquedos",
         description: "passo a passo da organização dos brinquedos e idéias de produtos organizadores"
     },
     {
-        title: "Modulo 11",
+        title: "Módulo 11",
         subTitle: "Produtos Organizadores",
         description: "conhecendo os produtos organizadores e suas formas de usar"
     },
     {
-        title: "Modulo 12",
+        title: "Módulo 12",
         subTitle: "Gabaritos para Roupas",
         description: "conheça os tamanhos e medidas para os molde de dobras de roupas"
     },

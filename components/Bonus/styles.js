@@ -21,7 +21,7 @@ export const Container = styled.section`
         font-size: 1.1rem;
         text-align: center;
         margin: 0 auto;
-        padding-top: 50px;
+        padding: 25px 0;
     }
 
     @media (min-width: 700px) {
@@ -66,6 +66,7 @@ export const Item = styled.li`
         }
 
         & ${Text} {
+            font-size: 1.15rem;
             text-transform: uppercase;
             width: 200px;
             text-align: center;

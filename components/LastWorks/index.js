@@ -4,7 +4,7 @@ import { Image, ImageWrapper, SubTitle } from '../../object'
 export default function LastWorks() {
     return (
         <Container>
-            <SubTitle>Ultimos Trabalhos</SubTitle>
+            <SubTitle>Trabalhos Realizados</SubTitle>
 
             <Content>
                 <ImageWrapper className="image1">

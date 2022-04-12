@@ -25,7 +25,7 @@ export const Container = styled.section`
     @media (min-width: 550px) {
         > ${SubTitle} {
             width: 100%;
-            margin-top: 20px;
+            margin-top: 36px;
         }
 
         > ${BlackLine} {

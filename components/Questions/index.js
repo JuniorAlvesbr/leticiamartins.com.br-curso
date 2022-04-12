@@ -27,7 +27,7 @@ const ListQuestion = [
 export default function Questions() {
     return (
         <Container>
-            <SubTitle>Duvidas frequentes</SubTitle>
+            <SubTitle>Dúvidas frequentes</SubTitle>
 
             <Content>
                 {ListQuestion.map(({ label, tabContent }, index) => (

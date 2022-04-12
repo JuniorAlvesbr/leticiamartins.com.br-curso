@@ -28,7 +28,7 @@ export default function Bonus() {
     return (
         <Container>
 
-            <SubTitle>Lembrando que <br></br> você <em>recebe</em></SubTitle >
+            <SubTitle>Lembrando que <br></br> você <em>recebe:</em></SubTitle >
 
             <List>
                 {BonusList.map((bonus, index) => <Item key={index}>{bonus}</Item>)}

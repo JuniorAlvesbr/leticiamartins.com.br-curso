@@ -30,15 +30,15 @@ export const Input = styled.input.attrs({ type: 'checkbox' })`
 `
 
 export const Label = styled.label`
+    font-weight: 700;
     height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    font-weight: 700;
     line-height: 18px;
     background-color: ${({ theme }) => theme.colors.fourth};
-    padding: 0 10px;
+    padding: 0 12px;
     cursor: pointer;
     
     &:hover {
@@ -52,6 +52,12 @@ export const Label = styled.label`
         text-align: center;
         transition: all .35s;
     }
+
+    @media (min-width: 750px) {
+        font-size: 1.2rem;
+        padding: 0 16px;
+    }
+
 `
 
 export const TabContent = styled.div`

@@ -21,7 +21,7 @@ export const UsersIcon = styled(FaUserFriends)`
 `
 
 export const CheckIcon = styled(BsCheck2Circle)`
-    font-size: 2rem;
+    font-size: 3rem;
     color: ${({ theme }) => theme.colors.third};
 `
 
@@ -39,7 +39,7 @@ export const Item = styled.li`
     line-height: 21px;
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 
     > span {
         display: inline-block;
@@ -48,7 +48,7 @@ export const Item = styled.li`
     }
 
     @media (min-width: 800px) {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 `
 
