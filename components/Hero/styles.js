@@ -32,6 +32,14 @@ export const Container = styled.section`
             height: 850px;
         }
     }
+
+    @media (min-width: 1000px) {
+        height: 950px;
+
+        > ${ImageWrapper} {
+            height: 950px;
+        }
+    }
 `
 
 export const Content = styled.article`
@@ -85,7 +93,10 @@ export const Content = styled.article`
         > ${Description} {
             line-height: 34px;
         }
+    }
 
+    @media (min-width: 1000px) {
+        width: 610px;
     }
 `
 
@@ -96,6 +107,11 @@ export const PlayerWrapper = styled.div`
     @media (min-width: 500px) {
         width: 450px;
         height: 280px;
+    }
+
+    @media (min-width: 1000px) {
+        width: 600px;
+        height: 350px;
     }
 `
 
