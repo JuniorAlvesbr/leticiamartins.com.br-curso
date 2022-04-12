@@ -25,6 +25,10 @@ export const Content = styled.div`
         height: 270px;
     }
 
+    ${Image} {
+        object-fit: cover;
+    }
+
     .image1 {
             grid-area: image1;
     }
@@ -57,7 +61,7 @@ export const Content = styled.div`
 
     @media (min-width: 650px) {
         ${ImageWrapper} {
-            height: 450px;
+            height: 600px;
         }
     }
 
