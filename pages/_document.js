@@ -5,8 +5,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta name="author" content="Junior Alves" />
           <meta name="copyright" content="Junior Alves" />
           <meta name="description"
@@ -15,8 +13,6 @@ export default class MyDocument extends Document {
             content="Curso, organização, personal-organizer, curso-personal-organizer, organizadores, Minha casa organizada" />
           <meta name="robots" content="all" />
           <meta name="robots" content="index, follow" />
-
-          <title>Curso Minha Casa Organizada - Leticia Martins</title>
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
