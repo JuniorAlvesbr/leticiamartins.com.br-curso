@@ -102,7 +102,8 @@ export const Content = styled.article`
 
 export const PlayerWrapper = styled.div`
     position: relative;
-    height: 260px;
+    width: 340px;
+    height: 220px;
 
     @media (min-width: 500px) {
         width: 450px;
