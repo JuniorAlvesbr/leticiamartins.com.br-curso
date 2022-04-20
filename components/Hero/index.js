@@ -30,7 +30,7 @@ function Hero() {
 
                 <PlayerWrapper>
                     <ReactPlayer
-                        url='https://www.youtube.com/watch?v=p-a3oyMTcRk&t=13s'
+                        url='https://www.youtube.com/watch?v=q65i_D8wpzo'
                         playing={false}
                         loop={true}
                         muted={false}
