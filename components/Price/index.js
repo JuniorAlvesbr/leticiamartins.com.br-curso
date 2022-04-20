@@ -8,9 +8,9 @@ export default function Price() {
                 curso online <br></br>
                 <em>minha casa organizada</em>
             </SubTitle>
-            <Text>por apenas 12x</Text>
-            <Text><em>R$</em><strong>42,00</strong></Text>
-            <Text><span>ou 497,00 á vista</span></Text>
+            <Text>por apenas ##x</Text>
+            <Text><em>R$</em><strong>##,00</strong></Text>
+            <Text><span>ou ###,00 á vista</span></Text>
             <Button>Compre Agora</Button>
         </Container>
     )
