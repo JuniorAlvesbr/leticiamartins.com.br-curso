@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "sitemap": "next-sitemap"
   },
   "dependencies": {
     "next": "latest",
@@ -13,5 +14,8 @@
     "react-is": "^17.0.2",
     "react-player": "^2.10.0",
     "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "next-sitemap": "^2.5.20"
   }
 }
