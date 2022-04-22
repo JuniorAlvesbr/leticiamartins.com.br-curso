@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://curso.leticiamartins.com.br
+
+# Sitemaps
+Sitemap: https://curso.leticiamartins.com.br/sitemap.xml
