@@ -7,7 +7,7 @@ import Button from '../../object/Button'
 
 function Hero() {
     return (
-        <Container>
+        <Container id="toTop">
             <ImageWrapper>
                 <Image
                     src='/images/minha-casa-organizada.jpg'

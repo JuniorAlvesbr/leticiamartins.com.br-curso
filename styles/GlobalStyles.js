@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     html, body {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
+        scroll-behavior: smooth;
     }
 `;
 
