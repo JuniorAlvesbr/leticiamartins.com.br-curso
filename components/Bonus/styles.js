@@ -18,7 +18,7 @@ export const Container = styled.section`
     padding-bottom: 20px;
     
     & > ${SubTitle} {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         text-align: center;
         margin: 0 auto;
         padding: 25px 0;

@@ -12,7 +12,7 @@ export const Container = styled.section`
 
     ${SubTitle} {
         color: ${({ theme }) => theme.colors.primary};
-        margin-bottom: 46px;
+        margin-bottom: 26px;
         text-align: center;
     }
 
@@ -30,8 +30,8 @@ export const Container = styled.section`
 
 export const ImageWrapper = styled.div`
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
 
     @media (min-width: 750px) {
         width: 400px;

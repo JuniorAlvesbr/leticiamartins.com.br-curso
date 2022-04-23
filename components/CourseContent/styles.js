@@ -11,9 +11,10 @@ export const Container = styled.section`
     padding-bottom: 50px;
 
     > ${SubTitle} {
-        width: 156px;
+        width: 180px;
         margin-top: 20px;
         text-align: center;
+        line-height: 26px;
     }
 
     > ${Button} {

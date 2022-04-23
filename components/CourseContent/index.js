@@ -74,7 +74,7 @@ const bonusCard = [
         description: "com Mariane Dalpizzol - Designer de interiores"
     },
     {
-        title: "Manipulação de Alimentos",
+        title: "Organização e Planejamento Alimentar",
         description: "com Camila Bataglini - Nutricionista"
     },
     {
@@ -83,7 +83,7 @@ const bonusCard = [
     },
     {
         title: "Auto maquiagem",
-        description: "com Lorena Navalli - Maquiadora"
+        description: "com Lorena Ravalli - Maquiadora profissional"
     },
 ]
 

@@ -12,7 +12,7 @@ export const Container = styled.section`
 
     ${SubTitle} {
         text-align: center;
-        max-width: 370px;
+        max-width: 280px;
     }
 `
 

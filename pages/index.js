@@ -9,6 +9,7 @@ import Garantia from "../components/Garantia"
 import Questions from "../components/Questions"
 import LastWorks from "../components/LastWorks"
 import TopButton from "../components/TopButton"
+import Footer from "../components/Footer"
 
 function Home() {
   return (
@@ -28,6 +29,11 @@ function Home() {
         <LastWorks />
         <TopButton />
       </main>
+      <footer>
+        <Footer>
+          Todos os direitos reservados por - Leticia Martins - Personal Organizer
+        </Footer>
+      </footer>
     </>
   )
 }

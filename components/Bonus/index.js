@@ -5,7 +5,7 @@ import { SubTitle, Text, ImageWrapper, Image, Button } from '../../object/'
 const BonusList = [
     <div>
         <IconFactCheck />
-        <Text>método exclusivo com <em>+ de 30 aulas</em>, com conteúdo teórico e prático.'</Text>
+        <Text>método exclusivo com <em>+ de 30 aulas</em>, com conteúdo teórico e prático.</Text>
     </div>,
     <div>
         <IconSafety />
@@ -28,7 +28,7 @@ export default function Bonus() {
     return (
         <Container>
 
-            <SubTitle>Lembrando que <br></br> você <em>recebe:</em></SubTitle >
+            <SubTitle>Lembrando que <br></br> você <em>recebe:</em></SubTitle>
 
             <List>
                 {BonusList.map((bonus, index) => <Item key={index}>{bonus}</Item>)}

@@ -10,7 +10,7 @@ const Card = styled.div`
 
 const Title = styled.p`
     font-weight: 700;
-    line-height: 14px;
+    line-height: 18px;
     text-align: center;
     text-transform: uppercase;
 `
