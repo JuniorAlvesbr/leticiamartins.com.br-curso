@@ -5,44 +5,6 @@ import ModuleCard from "./ModuleCard"
 import { BonusContent, CardGrid, Container } from "./styles"
 import Button from '../../object/Button'
 
-export default function CourseContent() {
-    return (
-        <Container>
-            <SubTitle>O que você vai ver no curso:</SubTitle>
-            <BlackLine />
-
-            <CardGrid>
-                {moduleCard.map(({ title, subTitle, description }, index) => (
-                    <li key={index}>
-                        <ModuleCard
-                            title={title}
-                            subTitle={subTitle}
-                            description={description}
-                        />
-                    </li>
-                )
-                )}
-            </CardGrid>
-
-            <SubTitleH3 as="h3">Receba esses Bônus Incriveis:</SubTitleH3>
-            <BlackLine />
-
-            <BonusContent>
-                {bonusCard.map(({ title, description }, index) => (
-                    <li key={index}>
-                        <BonusCard
-                            title={title}
-                            description={description}
-                        />
-                    </li>
-                ))}
-            </BonusContent>
-
-            <Button>Eu quero Agora</Button>
-        </Container>
-    )
-}
-
 const moduleCard = [
     {
         title: "Módulo 1",
@@ -124,3 +86,42 @@ const bonusCard = [
         description: "com Lorena Navalli - Maquiadora"
     },
 ]
+
+export default function CourseContent() {
+    return (
+        <Container>
+            <SubTitle>O que você vai ver no curso:</SubTitle>
+            <BlackLine />
+
+            <CardGrid>
+                {moduleCard.map(({ title, subTitle, description }, index) => (
+                    <li key={index}>
+                        <ModuleCard
+                            title={title}
+                            subTitle={subTitle}
+                            description={description}
+                        />
+                    </li>
+                )
+                )}
+            </CardGrid>
+
+            <SubTitleH3 as="h3">Receba esses Bônus Incriveis:</SubTitleH3>
+            <BlackLine />
+
+            <BonusContent>
+                {bonusCard.map(({ title, description }, index) => (
+                    <li key={index}>
+                        <BonusCard
+                            title={title}
+                            description={description}
+                        />
+                    </li>
+                ))}
+            </BonusContent>
+
+            <Button>Eu quero Agora</Button>
+        </Container>
+    )
+}
+

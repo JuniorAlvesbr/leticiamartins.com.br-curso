@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Card = styled.div`
     width: 320px;
-    height: 142px;
+    height: 152px;
     color: ${({ theme }) => theme.colors.secondary};
     background-color: ${({ theme }) => theme.colors.fourth};
 `
@@ -21,10 +21,10 @@ const Title = styled.p`
 const SubTitle = styled.p`
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: 22px;
     text-align: center;
     text-transform: uppercase;
     padding: 10px 16px 2px;
-    line-height: 18px;
 `
 
 const Description = styled(SubTitle)`
