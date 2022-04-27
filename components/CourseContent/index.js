@@ -70,20 +70,22 @@ const moduleCard = [
 
 const bonusCard = [
     {
-        title: "Dicas de Decoração para a casa",
-        description: "com Mariane Dalpizzol - Designer de interiores"
-    },
-    {
-        title: "Organização e Planejamento Alimentar",
-        description: "com Camila Bataglini - Nutricionista"
+        title: "Planejamento e Organização Alimentar",
+        description: "com Camila Bataglini - Nutricionista",
+        image: "/images/camila.jpg",
+        alt: "Nutricionista Camila Bataglini"
     },
     {
         title: "Estilo e Imagem Pessoal",
-        description: "com Karen Arceni - Consultora de imagem e estilo"
+        description: "com Karen Arceni - Consultora de imagem e estilo",
+        image: "/images/karen.jpg",
+        alt: "Consultora de Imagem Karen Arceni"
     },
     {
-        title: "Auto maquiagem",
-        description: "com Lorena Ravalli - Maquiadora profissional"
+        title: "Automaquiagem",
+        description: "com Lorena Ravalli - Maquiadora profissional",
+        image: "/images/lorena.jpg",
+        alt: "Maquiadora Lorena Ravalli"
     },
 ]
 
@@ -110,11 +112,13 @@ export default function CourseContent() {
             <BlackLine />
 
             <BonusContent>
-                {bonusCard.map(({ title, description }, index) => (
+                {bonusCard.map(({ title, description, image, alt }, index) => (
                     <li key={index}>
                         <BonusCard
                             title={title}
                             description={description}
+                            image={image}
+                            alt={alt}
                         />
                     </li>
                 ))}

@@ -7,6 +7,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
     padding-bottom: 50px;
 
@@ -45,7 +46,11 @@ export const CardGrid = styled.ul`
 
 export const BonusContent = styled.ul`
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     gap: 12px;
+
+    @media (min-width: 1024px) {
+        flex-direction: row;
+    }
 `
