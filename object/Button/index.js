@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Button = styled.a.attrs({
-    href: "http://www.google.com.br",
+    href: "https://pay.hotmart.com/N69221252K?bid=1651088642711",
     rel: "noopener noreferrer",
 })`
     width: 286px;
