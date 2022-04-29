@@ -29,6 +29,10 @@ export const Container = styled.section`
         span {
             text-transform: uppercase;
         }
+
+        s {
+            text-decoration: line-through;
+        }
     }
     
     @media (min-width: 700px) {
