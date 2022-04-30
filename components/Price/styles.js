@@ -23,7 +23,13 @@ export const Container = styled.section`
         }
 
         strong {
-            font-size: 4rem;
+            font-size: 6rem;
+            color: #079130;
+
+            & > span {
+                font-size: 4rem;
+                position: absolute;
+            }
         }
 
         span {
@@ -46,7 +52,7 @@ export const Container = styled.section`
         & > ${Text} {
 
             strong {
-                font-size: 5.5rem;
+                font-size: 10rem;
             }
         }
     }
