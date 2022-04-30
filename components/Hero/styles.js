@@ -126,6 +126,7 @@ export const IconContent = styled.div`
     width: 130px;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 
     > ${IconWrapper} {
         width: 60px;
