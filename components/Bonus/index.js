@@ -10,7 +10,7 @@ const BonusList = [
     <div>
         <IconSafety />
         <Text>
-            <strong>4 bônus exclusivo de</strong>, <span>decoração, imagem e estilo, manipulação de alimentos e auto maquiagem.</span>
+            <strong>3 bônus exclusivo de</strong>, <span>organização alimentar, imagem e estilo e automaquiagem</span>
         </Text>
     </div>,
     <div>

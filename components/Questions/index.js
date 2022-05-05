@@ -4,7 +4,7 @@ import { SubTitle, Text, Name } from '../../object'
 const ListQuestion = [
     {
         label: 'O que está incluso no investimento do curso?',
-        tabContent: 'O acesso ao curso incluindo, mais de 30 aulas gravadas, 4 aulas bônus de nossas parceiras, 2 ebooks, certificado de conclusão e acesso vitalício do curso.'
+        tabContent: 'O acesso ao curso incluindo, mais de 30 aulas gravadas, 3 aulas bônus de nossas parceiras, 2 ebooks, certificado de conclusão e acesso vitalício do curso.'
     },
     {
         label: 'Como vou receber todo esse material?',

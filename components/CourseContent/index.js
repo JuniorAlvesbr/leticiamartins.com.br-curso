@@ -63,8 +63,8 @@ const moduleCard = [
     },
     {
         title: "Módulo 12",
-        subTitle: "Gabaritos para Roupas",
-        description: "conheça os tamanhos e medidas para os molde de dobras de roupas"
+        subTitle: "Molde para Roupas",
+        description: "conheça os tamanhos e medidas para os moldes de dobras de roupas"
     },
 ]
 
@@ -108,7 +108,7 @@ export default function CourseContent() {
                 )}
             </CardGrid>
 
-            <SubTitleH3 as="h3">Receba esses Bônus Incriveis:</SubTitleH3>
+            <SubTitleH3 as="h3">Receba esses Bônus Incríveis:</SubTitleH3>
             <BlackLine />
 
             <BonusContent>
