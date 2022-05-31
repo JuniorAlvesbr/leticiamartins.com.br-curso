@@ -8,7 +8,6 @@ import Price from "../components/Price"
 import Garantia from "../components/Garantia"
 import Questions from "../components/Questions"
 import LastWorks from "../components/LastWorks"
-import SocialButton from "../components/SocialButton"
 import Footer from "../components/Footer"
 
 function Home() {
@@ -27,7 +26,6 @@ function Home() {
         <Garantia />
         <Questions />
         <LastWorks />
-        <SocialButton />
       </main>
       <footer>
         <Footer>
