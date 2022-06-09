@@ -75,12 +75,12 @@ const bonusCard = [
         image: "/images/camila.jpg",
         alt: "Nutricionista Camila Bataglini"
     },
-    // {
-    //     title: "Estilo e Imagem Pessoal",
-    //     description: "com Karen Arceni - Consultora de imagem e estilo",
-    //     image: "/images/karen.jpg",
-    //     alt: "Consultora de Imagem Karen Arceni"
-    // },
+    {
+        title: "Estilo e Imagem Pessoal",
+        description: "com Juliana Meneguetti - Consultora de imagem e estilo",
+        image: "/images/juliana.jpg",
+        alt: "Consultora de Imagem Juliana Meneguetti"
+    },
     {
         title: "Automaquiagem",
         description: "com Lorena Ravalli - Maquiadora profissional",
