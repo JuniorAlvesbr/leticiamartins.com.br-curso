@@ -6,7 +6,7 @@ export const Container = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 290px;
+    height: 400px;
 
     & > ${SubTitle}, ${Text} {
         text-align: center;
@@ -42,7 +42,7 @@ export const Container = styled.section`
     }
     
     @media (min-width: 700px) {
-        height: 400px;
+        height: 500px;
 
         & > ${SubTitle} {
             font-size: 2.5rem;

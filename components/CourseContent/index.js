@@ -124,7 +124,7 @@ export default function CourseContent() {
                 ))}
             </BonusContent>
 
-            <Button>Eu quero Agora</Button>
+            <Button href="#price">Eu quero Agora</Button>
         </Container>
     )
 }

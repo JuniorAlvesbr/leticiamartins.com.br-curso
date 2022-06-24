@@ -34,7 +34,7 @@ export default function WhoisCourse() {
                 </TextContent>
             </Content>
 
-            <Button>Eu quero agora</Button>
+            <Button href="#price">Eu quero agora</Button>
         </Container >
     )
 }

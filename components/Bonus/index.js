@@ -56,7 +56,7 @@ export default function Bonus() {
                 </TextBox>
             </Content>
 
-            <Button>quero me inscrever agora</Button>
+            <Button href="#price">quero me inscrever agora</Button>
 
         </Container >
     )

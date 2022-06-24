@@ -29,7 +29,7 @@ function Hero() {
                     Neste curso você vai aprender o <em>passo a passo</em> da organização que funciona, cada <em>etapa</em> da organização que vai <em>facilitar a sua rotina</em>, aprendendo exatamente por onde começar para atingir o seu resultado tão esperado!
                 </Description>
 
-                <Button>Quero me inscrever agora</Button>
+                <Button href="#price">Quero me inscrever agora</Button>
 
                 <IconContent>
                     <IconWrapper>
