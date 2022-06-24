@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import { SubTitle, ImageWrapper, Image } from '../../object'
 
 export const Container = styled.section`
+    padding-bottom: 30px;
+    background-color: #ededed;
 
     ${SubTitle} {
         text-align: center;
