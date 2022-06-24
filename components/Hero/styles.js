@@ -94,7 +94,7 @@ export const PlayerWrapper = styled.div`
 
 
     @media (min-width: 500px) {
-        width: 600px;
+        width: 490px;
         height: 400px;
     }
 
