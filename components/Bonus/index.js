@@ -1,6 +1,15 @@
-import { Container, List, Item, Content, TextBox } from "./styles";
-import { IconFactCheck, IconSafety, IconChat, IconCertificate } from './styles'
-import { SubTitle, Text, ImageWrapper, Image, Button } from '../../object/'
+import {
+    Container,
+    List,
+    Item, Content,
+    Description,
+    IconFactCheck,
+    IconSafety,
+    IconChat,
+    IconCertificate,
+} from './styles'
+
+import { SubTitle, ImageWrapper, Image, Button, Text } from '../../object/'
 
 const BonusList = [
     <div>
@@ -39,21 +48,38 @@ export default function Bonus() {
             <Content>
                 <ImageWrapper>
                     <Image
-                        src="/images/ebook.jpg"
+                        src="/images/consultoria.jpg"
+                        alt="Ebook do curso Minha casa Organizada da Leticia Martins"
+                    />
+                </ImageWrapper>
+                <Text>1 Hora gratuita de consultoria online individual</Text>
+
+                <ImageWrapper>
+                    <Image
+                        src="/images/casa-organizada.jpg"
                         alt="Ebook do curso Minha casa Organizada da Leticia Martins"
                     />
                 </ImageWrapper>
 
-                <TextBox>
-                    <Text>1 ebook - minha casa organizada</Text>
-                    <Text>1 ebook - guia prático de dobras</Text>
-                    <Text>
-                        <span>
-                            todos bem moderno, com designer <br></br>
-                            exclusivo, fácil leitura e compreensão
-                        </span>
-                    </Text>
-                </TextBox>
+                <Text>1 ebook <br></br>Minha casa organizada</Text>
+                <Text><s>R$67,00</s></Text>
+                <Text><span>00,00</span></Text>
+
+                <ImageWrapper>
+                    <Image
+                        src="/images/guia-dobras.jpg"
+                        alt="Ebook do curso Minha casa Organizada da Leticia Martins"
+                    />
+                </ImageWrapper>
+
+                <Text>1 ebook <br></br>Guia pratico de dobras</Text>
+                <Text><s>R$67,00</s></Text>
+                <Text><span>00,00</span></Text>
+
+                <Text italic="true">
+                    Ebooks bem moderno, com designer exclusivo, fácil leitura e compreensão
+                </Text>
+
             </Content>
 
             <Button href="#price">quero me inscrever agora</Button>
