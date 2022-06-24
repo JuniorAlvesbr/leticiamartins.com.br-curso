@@ -1,5 +1,4 @@
-import { BlackLine } from "../../object/Line"
-import { SubTitle, SubTitleH3 } from "../../object/SubTitle"
+import { SubTitle, SubTitleH3, Text, BlackLine } from "../../object"
 import BonusCard from "./BonusCard"
 import ModuleCard from "./ModuleCard"
 import { BonusContent, CardGrid, Container } from "./styles"
@@ -108,8 +107,9 @@ export default function CourseContent() {
                 )}
             </CardGrid>
 
-            <SubTitleH3 as="h3">Receba esses Bônus Incríveis:</SubTitleH3>
+            <SubTitleH3 as="h3">Receba esses Bônus extras:</SubTitleH3>
             <BlackLine />
+            <Text>Video Aula</Text>
 
             <BonusContent>
                 {bonusCard.map(({ title, description, image, alt }, index) => (

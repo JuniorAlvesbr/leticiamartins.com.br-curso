@@ -1,6 +1,5 @@
 import styled from 'styled-components'
-import { SubTitle } from '../../object/SubTitle'
-import { BlackLine } from '../../object/Line'
+import { SubTitle, BlackLine, Text } from '../../object'
 import Button from '../../object/Button'
 
 export const Container = styled.section`
@@ -18,6 +17,11 @@ export const Container = styled.section`
         line-height: 26px;
     }
 
+    ${Text} {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
     > ${Button} {
         position: absolute;
         bottom: -23px;
@@ -30,9 +34,10 @@ export const Container = styled.section`
             margin-top: 36px;
         }
 
-        > ${BlackLine} {
-            margin-bottom: 40px;
-        }
+        > ${Text} {
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
     }
 `
 
