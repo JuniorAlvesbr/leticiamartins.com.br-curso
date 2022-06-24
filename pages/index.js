@@ -17,8 +17,8 @@ function Home() {
         <Hero />
       </header>
       <main>
-        <CourseContent />
         <WhoisCourse />
+        <CourseContent />
         <AboutMe />
         <Bonus />
         <Device />

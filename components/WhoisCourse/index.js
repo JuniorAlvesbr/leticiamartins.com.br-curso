@@ -11,10 +11,12 @@ const list = [
 ]
 
 const text = [
-    'TODO O CURSO É ONLINE E VOCÊ PODE VER NA HORA QUE QUISER, NO CONFORTO DA SUA CASA;',
-    'ACESSO IMEDIATO DO CONTEÚDO;',
-    'AS AULAS SÃO GRAVADAS, PODENDO SER ASSISTIDAS QUANTAS VEZES DESEJAR;',
-    'CADA AULA NA PLATAFORMA, TEM UM ESPAÇO RESERVADO PARA VOCÊ FAZER PERGUNTAS E TIRAR SUAS DÚVIDAS.',
+    'Acesso vitalício, podendo rever o conteúdo sempre que desejar;',
+    'Todo o curso é online e você pode ver na hora que quiser, no conforto da sua casa;',
+    'Acesso imediato do conteúdo;',
+    'As aulas são gravadas, podendo ser assististas em qualquer dispositivo, computador, notebook, celular ou tablet;',
+    'Cada aula na plataforma, tem um espaço reservado para você fazer perguntas e tirar suas dúvidas',
+    'Atualizações constantes do mercado, que vão somar ainda mais no seu conhecimento;'
 ]
 
 export default function WhoisCourse() {
