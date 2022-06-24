@@ -8,8 +8,8 @@ import Button from '../../object/Button'
 const moduleCard = [
     {
         title: "Módulo 1",
-        subTitle: "apresentação/ conceito de organização / diferença de arrumar x organizar / 5 passos para organizar",
-        description: ""
+        subTitle: "Conceito de organização",
+        description: "apresentação, introdução do tema"
     },
     {
         title: "Módulo 2",
