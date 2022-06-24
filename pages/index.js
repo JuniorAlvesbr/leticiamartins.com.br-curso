@@ -18,6 +18,7 @@ function Home() {
       </header>
       <main>
         <WhoisCourse />
+        <LastWorks />
         <CourseContent />
         <AboutMe />
         <Bonus />
@@ -25,7 +26,6 @@ function Home() {
         <Price />
         <Garantia />
         <Questions />
-        <LastWorks />
       </main>
       <footer>
         <Footer>

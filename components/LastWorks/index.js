@@ -9,37 +9,25 @@ export default function LastWorks() {
             <Content>
                 <ImageWrapper className="image1">
                     <Image
-                        src="/images/image1.jpg"
+                        src="/images/armario.jpg"
                         alt="Ultimos trabalhos da Leticia Martins"
                     />
                 </ImageWrapper>
                 <ImageWrapper className="image2">
                     <Image
-                        src="/images/image2.jpg"
+                        src="/images/meias.jpg"
                         alt="Ultimos trabalhos da Leticia Martins"
                     />
                 </ImageWrapper>
                 <ImageWrapper className="image3">
                     <Image
-                        src="/images/image3.jpg"
+                        src="/images/gaveta.jpg"
                         alt="Ultimos trabalhos da Leticia Martins"
                     />
                 </ImageWrapper>
                 <ImageWrapper className="image4">
                     <Image
-                        src="/images/image4.jpg"
-                        alt="Ultimos trabalhos da Leticia Martins"
-                    />
-                </ImageWrapper>
-                <ImageWrapper className="image5">
-                    <Image
-                        src="/images/image5.jpg"
-                        alt="Ultimos trabalhos da Leticia Martins"
-                    />
-                </ImageWrapper>
-                <ImageWrapper className="image6">
-                    <Image
-                        src="/images/image6.jpg"
+                        src="/images/sapateira.jpg"
                         alt="Ultimos trabalhos da Leticia Martins"
                     />
                 </ImageWrapper>
