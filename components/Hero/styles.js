@@ -1,108 +1,90 @@
 import styled from 'styled-components'
-import { IconWrapper, ImageWrapper } from './Image'
-import { Description, Legend, Text } from './Text'
+import { IconWrapper } from './Image'
 import Button from '../../object/Button'
 
 export const Container = styled.section`
-    position: relative;
-    height: 1150px;
+    background-color: ${({ theme }) => theme.colors.secondary};
+`
 
-    &::after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 21.63%, #000000 33.21%);
-    }
+export const Title = styled.h1`
+    font-weight: 700;
+    color: ${({ theme }) => theme.colors.primary};
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.2;
+`
 
-    > ${ImageWrapper} {
-        height: 400px;
-    }
+export const Text = styled.p`
+    font-weight: 700;
+    color: ${({ theme }) => theme.colors.primary};
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
 
-   @media (min-width: 750px) {
-        height: 850px;
-        
-        &::after {
-            background: radial-gradient(100% 505.77% at 0% 45.98%, rgba(0, 0, 0, 0.9) 35.94%, rgba(0, 0, 0, 0) 71.88%);
-        }
-
-        > ${ImageWrapper} {
-            height: 850px;
-        }
-    }
-
-    @media (min-width: 1000px) {
-        height: 950px;
-
-        > ${ImageWrapper} {
-            height: 950px;
-        }
+    > em {
+        color: ${({ theme }) => theme.colors.third}
     }
 `
 
+export const Legend = styled.p`
+    color: ${({ theme }) => theme.colors.primary};
+`
+
+export const Description = styled(Text)`
+    text-transform: none;
+    line-height: 2;
+`
+
 export const Content = styled.article`
-    position: absolute;
-    bottom: 0;
-    z-index: 10;
-    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5rem;
+    height: 95vh;
+
+    ${Title} {
+        max-width: 800px;
+    }
+
+    > ${Legend} {
+        font-size: 1rem;
+        max-width: 800px;
+    }
+
+    > ${Description} {
+        font-size: 1.2rem;
+        max-width: 800px;
+    }
 
     > ${Button} {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
-    > ${Text} {
-        width: 240px;
-    }
-
-    > ${Legend} {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    > ${Description} {
-        font-size: 1.2rem;
-        width: 290px;
-    }
-
     @media (min-width: 500px) {
         font-size: 1.7rem;
 
-        > ${Text} {
-            width: 316px;
-        }
-
         > ${Description} {
             font-size: 1.4rem;
-            width: 500px;
         }
     }
 
     @media (min-width: 750px) {
-        width: 500px;
-        top: 0;
-        margin-top: 40px;
-        margin-left: 58px;
-
         > ${Description} {
             line-height: 34px;
         }
     }
 
-    @media (min-width: 1000px) {
-        width: 610px;
+    @media (min-width: 1366px) {
+        >${Title} {
+            max-width: 100%;
+        }
     }
 `
 
 export const PlayerWrapper = styled.div`
     position: relative;
-
     width: 290px;
 
     @media (min-width: 350px) {
@@ -112,13 +94,12 @@ export const PlayerWrapper = styled.div`
 
 
     @media (min-width: 500px) {
-        width: 450px;
-        height: 280px;
+        width: 600px;
+        height: 400px;
     }
 
-    @media (min-width: 1000px) {
-        width: 600px;
-        height: 350px;
+    @media (min-width: 1366px) {
+        width: 700px;
     }
 `
 

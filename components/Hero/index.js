@@ -1,29 +1,14 @@
 import ReactPlayer from "react-player"
-import { ImageWrapper, IconWrapper, Image } from './Image'
-import { Title, Text, Legend, Description } from './Text'
-import { Container, Content, PlayerWrapper, IconContent } from "./styles"
+import { IconWrapper, Image } from './Image'
+import { Container, Content, Title, Text, Legend, Description, PlayerWrapper, IconContent } from "./styles"
 import { Line } from '../../object/Line'
 import Button from '../../object/Button'
 
 function Hero() {
     return (
         <Container id="top">
-            <ImageWrapper>
-                <Image
-                    src='/images/minha-casa-organizada.jpg'
-                    alt='Foto Minha casa Organizada da Leticia Martins'
-                    layout='fill'
-                    placeholder='blur'
-                    blurDataURL='/images/blur.png'
-                />
-            </ImageWrapper>
-
             <Content>
-                <Title>
-                    Curso online <br />
-                    <span>Minha casa organizada</span>
-                </Title>
-                <Line />
+                <Title>Já pensou ter mais conforto, praticidade e economia no seu dia a dia?</Title>
                 <Text>Conheça o método <em>simples</em> e <em>eficaz</em> para organizar a sua casa</Text>
                 <Line />
                 <Legend>assista o video abaixo:</Legend>
@@ -66,11 +51,8 @@ function Hero() {
                             blurDataURL='/images/blur.png'
                         />
                     </IconWrapper>
-
                 </IconContent>
-
             </Content>
-
         </Container>
     )
 }
