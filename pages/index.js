@@ -9,7 +9,7 @@ import Garantia from "../components/Garantia"
 import Questions from "../components/Questions"
 import LastWorks from "../components/LastWorks"
 import Footer from "../components/Footer"
-import WhatsAppButton from "../components/WhatsappButton"
+import WhatsAppButton from "../components/WhatsAppButton"
 
 function Home() {
   return (
