@@ -1,4 +1,5 @@
-import { SubTitle, SubTitleH3, Text, BlackLine } from "../../object"
+import { SubTitle, SubTitleH3, Text } from "../../object"
+import { BlackLine } from '../Line'
 import BonusCard from "./BonusCard"
 import ModuleCard from "./ModuleCard"
 import { BonusContent, CardGrid, Container } from "./styles"

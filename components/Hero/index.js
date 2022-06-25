@@ -1,7 +1,7 @@
 import ReactPlayer from "react-player"
 import { IconWrapper, Image } from './Image'
 import { Container, Content, Title, Text, Legend, Description, PlayerWrapper, IconContent } from "./styles"
-import { Line } from '../../object/Line'
+import { Line } from '../Line'
 import Button from '../../object/Button'
 
 function Hero() {

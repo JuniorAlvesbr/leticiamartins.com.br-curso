@@ -1,5 +1,5 @@
-import { Container, Content, Input, Label, Tab, TabContent } from "./styles";
-import { SubTitle, Text, Name } from '../../object'
+import { Container, Content, Input, Label, Tab, TabContent, Name } from "./styles";
+import { SubTitle, Text } from '../../object'
 
 const ListQuestion = [
     {

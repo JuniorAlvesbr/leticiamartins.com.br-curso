@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { IconWrapper } from './Image'
-import Button from '../../object/Button'
 
 export const Container = styled.section`
     background-color: ${({ theme }) => theme.colors.secondary};
