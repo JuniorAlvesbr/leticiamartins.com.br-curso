@@ -4,18 +4,20 @@ import { Button, SubTitle, Text } from '../../object'
 export const Container = styled.section`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 400px;
+    height: 70vh;
 
-    & > ${SubTitle}, ${Text} {
+    ${SubTitle} {
+        font-size: 1.6rem;
         text-align: center;
     }
-
-    & > ${Text} {
+    
+    ${Text} {
         font-size: 1.2rem;
         position: relative;
         padding: 10px;
+        text-align: center;
 
         em {
             position: absolute;
@@ -42,8 +44,6 @@ export const Container = styled.section`
     }
     
     @media (min-width: 700px) {
-        height: 500px;
-
         & > ${SubTitle} {
             font-size: 2.5rem;
             line-height: 40px;
@@ -57,4 +57,17 @@ export const Container = styled.section`
         }
     }
 
+`
+
+export const Description = styled.p`
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+    max-width: 320px;
+
+    strong {
+        color: #079130;
+    }
 `

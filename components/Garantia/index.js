@@ -22,7 +22,6 @@ export default function Garantia() {
                     Uma garantia blindada do curso online - <strong>minha casa organizada</strong>, pois respeitamos seu tempo e seu dinheiro e desejamos ter pessoas satisfeitas com nosso conteúdo.
                 </Text>
             </TextBox>
-
         </Container>
     )
 }
