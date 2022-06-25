@@ -9,6 +9,7 @@ import Garantia from "../components/Garantia"
 import Questions from "../components/Questions"
 import LastWorks from "../components/LastWorks"
 import Footer from "../components/Footer"
+import WhatsAppButton from "../components/WhatsappButton"
 
 function Home() {
   return (
@@ -32,6 +33,7 @@ function Home() {
           Todos os direitos reservados por - Leticia Martins - Personal Organizer
         </Footer>
       </footer>
+      <WhatsAppButton />
     </>
   )
 }

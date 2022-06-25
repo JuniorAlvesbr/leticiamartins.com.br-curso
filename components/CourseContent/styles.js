@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { SubTitle, BlackLine, Text } from '../../object'
+import { SubTitle, Text } from '../../object'
 import Button from '../../object/Button'
 
 export const Container = styled.section`
