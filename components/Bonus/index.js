@@ -19,7 +19,7 @@ const BonusList = [
     <div>
         <IconSafety />
         <Text>
-            <strong>3 bônus exclusivo de</strong>, <span>organização alimentar, imagem e estilo e automaquiagem</span>
+            <strong>3 bônus exclusivo de</strong>, <span>organização alimentar, imagem e estilo e automaquiagem.</span>
         </Text>
     </div>,
     <div>
@@ -72,7 +72,7 @@ export default function Bonus() {
                     />
                 </ImageWrapper>
 
-                <Text>1 ebook <br></br>Guia pratico de dobras</Text>
+                <Text>1 ebook <br></br>Guia prático de dobras</Text>
                 <Text><s>R$67,00</s></Text>
                 <Text><span>00,00</span></Text>
 
@@ -82,8 +82,9 @@ export default function Bonus() {
 
             </Content>
 
-            <Button href="#price">quero me inscrever agora</Button>
-
+            <Button href="https://pay.hotmart.com/N69221252K?bid=1651088642711" target="_blank">
+                quero me inscrever agora
+            </Button>
         </Container >
     )
 }

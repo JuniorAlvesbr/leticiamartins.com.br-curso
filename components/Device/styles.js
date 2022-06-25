@@ -11,7 +11,7 @@ export const Container = styled.section`
 
     & > ${ImageWrapper} {
         width: 350px;
-        height: 250px;
+        height: 220px;
     }
 
     @media (min-width: 768px) {
@@ -28,14 +28,14 @@ export const Container = styled.section`
 
         & > ${ImageWrapper} {
         width: 700px;
-        height: 500px;
+        height: 400px;
         }
     }
 
     @media (min-width: 1366px) {
         & > ${ImageWrapper} {
         width: 1024px;
-        height: 700px;
+        height: 600px;
         }
     }
 `

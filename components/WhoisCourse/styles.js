@@ -21,14 +21,14 @@ export const UsersIcon = styled(FaUserFriends)`
 `
 
 export const CheckIcon = styled(BsCheck2Circle)`
-    font-size: 3rem;
+    font-size: 2rem;
     color: ${({ theme }) => theme.colors.third};
 `
 
 export const Content = styled.article`
     margin-top : 34px;
     width: 90vw;
-    max-width: 1000px
+    max-width: 1000px;
 `
 
 export const List = styled.ul``
@@ -49,6 +49,10 @@ export const Item = styled.li`
 
     @media (min-width: 800px) {
         font-size: 1.6rem;
+
+        ${CheckIcon} {
+            font-size: 3rem;
+        }
     }
 `
 
@@ -57,13 +61,30 @@ export const TextContent = styled.div`
 `
 
 export const Text = styled.p`
+    font-size: 1rem;
     font-weight: 700;
-    text-align: center;
     text-transform: uppercase;
     line-height: 20px;
     margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
 
-    @media (min-width: 800px) {
-        font-size: 1.2rem;
+    ${CheckIcon} {
+        color: green;
+    }
+
+    > span {
+        display: inline-block;
+        margin-left: 14px;
+        width: 90vw;
+    }
+
+    @media (min-width: 800px ) {
+        font-size: 1.1rem;
+
+        ${CheckIcon} {
+            font-size: 3rem;
+        }
     }
 `

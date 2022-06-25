@@ -8,25 +8,26 @@ function Hero() {
     return (
         <Container id="top">
             <Content>
-                <Title>Já pensou ter mais conforto, praticidade e economia no seu dia a dia?</Title>
-                <Text>Conheça o método <em>simples</em> e <em>eficaz</em> para organizar a sua casa</Text>
+                <Title>Já pensou em ter mais <em>conforto, praticidade e economia</em> no seu dia a dia?</Title>
+                <Text as="p">Conheça o método <em>simples</em> e <em>eficaz</em> para organizar a sua casa</Text>
                 <Line />
                 <Legend>assista o video abaixo:</Legend>
 
                 <PlayerWrapper>
                     <ReactPlayer
                         url='https://www.youtube.com/embed/q65i_D8wpzo'
-                        playing={false}
-                        loop={true}
+                        playing={true}
+                        loop={false}
                         muted={false}
                         controls={true}
+                        light={true}
                         width="100%"
                         height="100%"
                     />
                 </PlayerWrapper>
 
-                <Description>
-                    Neste curso você vai aprender o <em>passo a passo</em> da organização que funciona, cada <em>etapa</em> da organização que vai <em>facilitar a sua rotina</em>, aprendendo exatamente por onde começar para atingir o seu resultado tão esperado!
+                <Description as="p">
+                    Acabe de uma vez por toda com a <em>bagunça</em> e a <em>desordem</em> da sua <em>casa</em>, evitando o <em>estresse</em> e o <em>cansaço</em> no seu dia dia.
                 </Description>
 
                 <Button href="#price">Quero me inscrever agora</Button>

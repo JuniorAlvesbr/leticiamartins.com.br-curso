@@ -4,102 +4,103 @@ import Button from '../../object/Button'
 
 export const Container = styled.section`
     background-color: ${({ theme }) => theme.colors.secondary};
-`
-
-export const Title = styled.h1`
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.primary};
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1.2;
-`
-
-export const Text = styled.p`
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.primary};
-    text-align: center;
-    line-height: 1.2;
-    text-transform: uppercase;
-
-    > em {
-        color: ${({ theme }) => theme.colors.third}
-    }
-`
-
-export const Legend = styled.p`
-    color: ${({ theme }) => theme.colors.primary};
-`
-
-export const Description = styled(Text)`
-    text-transform: none;
-    line-height: 2;
+    padding: 40px 0;
 `
 
 export const Content = styled.article`
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    height: 95vh;
+    justify-content: space-evenly;
+    height: 100%;
+`
 
-    ${Title} {
-        max-width: 800px;
+export const Title = styled.h1`
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: ${({ theme }) => theme.colors.primary};
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    width: 80vw;
+    max-width: 360px;
+    padding: 20px 0;
+
+    & > em {
+        color: ${({ theme }) => theme.colors.third}
     }
 
-    > ${Legend} {
-        font-size: 1rem;
-        max-width: 800px;
+    @media (min-width: 600px) {
+        font-size: 1.4rem;
+        max-width: 600px;
     }
 
-    > ${Description} {
-        font-size: 1.2rem;
-        max-width: 800px;
-    }
-
-    > ${Button} {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    @media (min-width: 500px) {
-        font-size: 1.7rem;
-
-        > ${Description} {
-            font-size: 1.4rem;
-        }
-    }
-
-    @media (min-width: 750px) {
-        > ${Description} {
-            line-height: 34px;
-        }
+    @media (min-width: 1024px) {
+        font-size: 1.6rem;
+        max-width: 900px;
     }
 
     @media (min-width: 1366px) {
-        >${Title} {
-            max-width: 100%;
-        }
+        max-width: 1024px;
     }
+
+`
+
+export const Text = styled(Title)``
+
+export const Legend = styled.p`
+    color: ${({ theme }) => theme.colors.primary};
+    margin-bottom: 8px;
+`
+
+export const Description = styled(Title)`
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-transform: none;
+    width: 95vw;
+
+    & > em {
+        font-style: italic;
+    }
+
+    @media (min-width: 600px) {
+        font-size: 1.2rem;
+    }
+    
+    @media (min-width: 1024px) {
+        font-size: 1.4rem;
+    }
+    
 `
 
 export const PlayerWrapper = styled.div`
     position: relative;
-    width: 290px;
+    width: 310px;
+    border-radius: 1px solid green;
 
-    @media (min-width: 350px) {
-        width: 340px;
+    @media (min-width: 370px) {
+        width: 370px;
         height: 220px;
     }
 
+    @media (min-width: 420px) {
+        width: 414px;
+    }
 
     @media (min-width: 500px) {
         width: 490px;
         height: 400px;
     }
 
+    @media (min-width: 768px) {
+        width: 600px;
+    }
+   
+    @media (min-width: 1024px) {
+        width: 800px;
+    }
+
     @media (min-width: 1366px) {
-        width: 700px;
     }
 `
 

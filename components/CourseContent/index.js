@@ -109,7 +109,7 @@ export default function CourseContent() {
 
             <SubTitleH3 as="h3">Receba esses Bônus extras:</SubTitleH3>
             <BlackLine />
-            <Text>Video Aula</Text>
+            <Text>VÍdeo Aula</Text>
 
             <BonusContent>
                 {bonusCard.map(({ title, description, image, alt }, index) => (
@@ -124,7 +124,7 @@ export default function CourseContent() {
                 ))}
             </BonusContent>
 
-            <Button href="#price">Eu quero Agora</Button>
+            <Button href="https://pay.hotmart.com/N69221252K?bid=1651088642711" target="_blank">Eu quero Agora</Button>
         </Container>
     )
 }

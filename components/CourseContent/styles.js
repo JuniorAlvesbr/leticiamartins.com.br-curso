@@ -20,6 +20,7 @@ export const Container = styled.section`
     ${Text} {
         font-size: 18px;
         text-transform: uppercase;
+        margin-bottom: 12px;
     }
 
     > ${Button} {
