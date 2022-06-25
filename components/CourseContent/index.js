@@ -1,4 +1,4 @@
-import { SubTitle, SubTitleH3, Text } from "../../object"
+import { SubTitle, Text } from "../../object"
 import { BlackLine } from '../Line'
 import BonusCard from "./BonusCard"
 import ModuleCard from "./ModuleCard"
@@ -92,7 +92,7 @@ const bonusCard = [
 export default function CourseContent() {
     return (
         <Container>
-            <SubTitle>O que você vai ver no curso:</SubTitle>
+            <SubTitle as="h2">O que você vai ver no curso:</SubTitle>
             <BlackLine />
 
             <CardGrid>
@@ -108,7 +108,7 @@ export default function CourseContent() {
                 )}
             </CardGrid>
 
-            <SubTitleH3 as="h3">Receba esses Bônus extras:</SubTitleH3>
+            <SubTitle as="h3">Receba esses Bônus extras:</SubTitle>
             <BlackLine />
             <Text>VÍdeo Aula</Text>
 
