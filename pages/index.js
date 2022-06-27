@@ -1,41 +1,23 @@
-import Hero from "../components/Hero"
-import CourseContent from "../components/CourseContent"
-import WhoisCourse from "../components/WhoisCourse"
-import AboutMe from "../components/AboutMe"
-import Bonus from "../components/Bonus"
-import Device from "../components/Device"
-import Price from "../components/Price"
-import Garantia from "../components/Garantia"
-import Questions from "../components/Questions"
-import LastWorks from "../components/LastWorks"
-import Footer from "../components/Footer"
-import WhatsAppButton from "../components/WhatsAppButton"
+import styled from 'styled-components'
+import Image from 'next/image'
 
-function Home() {
+const Container = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+export default function Home() {
   return (
-    <>
-      <header>
-        <Hero />
-      </header>
-      <main>
-        <WhoisCourse />
-        <LastWorks />
-        <CourseContent />
-        <AboutMe />
-        <Bonus />
-        <Device />
-        <Price />
-        <Garantia />
-        <Questions />
-      </main>
-      <footer>
-        <Footer>
-          Todos os direitos reservados por - Leticia Martins - Personal Organizer
-        </Footer>
-      </footer>
-      <WhatsAppButton />
-    </>
+    <Container>
+      <Image
+        src="/images/manutencao.webp"
+        alt="Picture of the author"
+        width={700}
+        height={500}
+      />
+    </Container>
   )
 }
-
-export default Home
