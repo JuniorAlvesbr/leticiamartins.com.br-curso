@@ -56,7 +56,7 @@ export default function Bonus() {
 
                 <ImageWrapper>
                     <Image
-                        src="/images/casa-organizada.jpg"
+                        src="/images/ebook.png"
                         alt="Ebook do curso Minha casa Organizada da Leticia Martins"
                     />
                 </ImageWrapper>
