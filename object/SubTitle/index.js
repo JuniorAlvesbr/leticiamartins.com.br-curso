@@ -4,7 +4,7 @@ export const SubTitle = styled.h2`
     font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
-    line-height: ${({ as }) => as === "h3" ? '18px' : '28px'};
+    line-height: 30px;
 
     & > em {
         color: ${({ theme }) => theme.colors.third};
