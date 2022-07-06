@@ -6,7 +6,7 @@ export default function Price() {
         <Container id="price">
             <SubTitle>
                 curso online <br></br>
-                <em>minha casa organizada</em>
+                <em>Organize a sua casa</em>
             </SubTitle>
 
             <Text>de <s>R$597,00</s> por apenas 12x</Text>

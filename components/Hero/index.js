@@ -36,7 +36,7 @@ function Hero() {
                     <IconWrapper>
                         <Image
                             src='/images/garantia7.png'
-                            alt='Foto 7 dias de garantia do curso Minha casa Organizada da Leticia Martins'
+                            alt='Foto 7 dias de garantia do curso Organize a sua casa da Leticia Martins'
                             layout='fill'
                             placeholder='blur'
                             blurDataURL='/images/blur.png'
@@ -46,7 +46,7 @@ function Hero() {
                     <IconWrapper>
                         <Image
                             src='/images/compra-segura.png'
-                            alt='Foto compra segura do curso Minha casa Organizada da Leticia Martins'
+                            alt='Foto compra segura do curso Organize a sua casa da Leticia Martins'
                             layout='fill'
                             placeholder='blur'
                             blurDataURL='/images/blur.png'

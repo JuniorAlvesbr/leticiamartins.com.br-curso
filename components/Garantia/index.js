@@ -7,7 +7,7 @@ export default function Garantia() {
             <ImageWrapper>
                 <Image
                     src="/images/garantia.png"
-                    alt="7 dias de garantia do curso minha casa organizada"
+                    alt="7 dias de garantia do curso Organize a sua casa"
                 />
             </ImageWrapper>
 

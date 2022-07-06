@@ -22,7 +22,7 @@ const text = [
 export default function WhoisCourse() {
     return (
         <Container>
-            <SubTitle>Para quem é o curso <br></br>minha casa Organizada</SubTitle>
+            <SubTitle>Para quem é o curso <br></br>Organize a sua casa</SubTitle>
             <BlackLine />
             <UsersIcon />
 
