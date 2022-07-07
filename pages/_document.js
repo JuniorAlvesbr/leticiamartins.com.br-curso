@@ -8,9 +8,9 @@ export default class MyDocument extends Document {
           <meta name="author" content="Junior Alves" />
           <meta name="copyright" content="Junior Alves" />
           <meta name="description"
-            content=" Curso de organização residêncial Organize a sua casa. Aprenda a organizar a sua casa de forma facil e totalmente prática. A personal organizer Leticia Martins te ensinará todas as técnicas que você precisa para deixar sua casa linda e organizada." />
+            content=" Curso de organização residêncial organize sua casa. Aprenda a organizar a sua casa de forma facil e totalmente prática. A personal organizer Leticia Martins te ensinará todas as técnicas que você precisa para deixar sua casa linda e organizada." />
           <meta name="keywords"
-            content="Curso, organização, personal-organizer, curso-personal-organizer, organizadores, Organize a sua casa" />
+            content="Curso, organização, personal-organizer, curso-personal-organizer, organizadores, organize sua casa" />
           <meta name="robots" content="all" />
           <meta name="robots" content="index, follow" />
 

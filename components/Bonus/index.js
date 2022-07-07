@@ -49,7 +49,7 @@ export default function Bonus() {
                 <ImageWrapper>
                     <Image
                         src="/images/consultoria.jpg"
-                        alt="Ebook do curso Organize a sua casa da Leticia Martins"
+                        alt="Ebook do curso organize sua casa da Leticia Martins"
                     />
                 </ImageWrapper>
                 <Text>1 Hora gratuita de consultoria online individual</Text>
@@ -57,18 +57,18 @@ export default function Bonus() {
                 <ImageWrapper>
                     <Image
                         src="/images/ebook.png"
-                        alt="Ebook do curso Organize a sua casa da Leticia Martins"
+                        alt="Ebook do curso organize sua casa da Leticia Martins"
                     />
                 </ImageWrapper>
 
-                <Text>1 ebook <br></br>Organize a sua casa</Text>
+                <Text>1 ebook <br></br>organize sua casa</Text>
                 <Text><s>R$67,00</s></Text>
                 <Text><span>00,00</span></Text>
 
                 <ImageWrapper>
                     <Image
                         src="/images/guia-dobras.jpg"
-                        alt="Ebook do curso Organize a sua casa da Leticia Martins"
+                        alt="Ebook do curso organize sua casa da Leticia Martins"
                     />
                 </ImageWrapper>
 

@@ -7,7 +7,7 @@ export default function Device() {
             <ImageWrapper>
                 <Image
                     src="/images/devices.png"
-                    alt="Acesse o curso Organize a sua casa em qualquer plataforma"
+                    alt="Acesse o curso organize sua casa em qualquer plataforma"
                 />
             </ImageWrapper>
         </Container>
