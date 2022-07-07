@@ -128,7 +128,7 @@ export const Content = styled.article`
 
     @media(min-width: 1024px) {
         & ${ImageWrapper} {
-            width: 700px;
+            width: 600px;
             height: 350px;
         }
     }
